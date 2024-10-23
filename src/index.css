@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Menargetkan dot carousel Ant Design */
+.ant-carousel .slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; /* Membuat dot menjadi bulat */
+  background-color: #d9d9d9;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: #1890ff; /* Warna dot aktif */
+}
+
+
+.ant-carousel .team-carousel .slick-list{
+  width: auto !important;
+  /* margin-top: 10px !important; */
+  padding-top: 40px !important;
+  /* background-color: tomato !important; */
+}
